@@ -1,0 +1,4 @@
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\NewControl\bin\Debug\NewControl.dll
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\NewControl\bin\Debug\NewControl.pdb
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\NewControl\obj\Debug\NewControl.dll
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\NewControl\obj\Debug\NewControl.pdb
