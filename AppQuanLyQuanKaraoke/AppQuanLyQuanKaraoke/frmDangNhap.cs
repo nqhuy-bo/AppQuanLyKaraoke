@@ -15,5 +15,12 @@ namespace AppQuanLyQuanKaraoke
         {
             InitializeComponent();
         }
+
+        private void btnDangNhap_Click(object sender, EventArgs e)
+        {
+            //Sự kiện kiểm tra đăng nhập
+            frmTrangChu frm = new frmTrangChu();
+            frm.Show();
+        }
     }
 }

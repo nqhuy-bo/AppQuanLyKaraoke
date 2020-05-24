@@ -31,11 +31,11 @@
             this.lblTitleDangNhap = new DevExpress.XtraEditors.LabelControl();
             this.lblTitleTaiKhoan = new DevExpress.XtraEditors.LabelControl();
             this.lblTitleMatKhau = new DevExpress.XtraEditors.LabelControl();
+            this.ckbGhiNhoDangNhap = new DevExpress.XtraEditors.CheckEdit();
+            this.btnThoatDangNhap = new NewControl.ButtonStyleHot();
+            this.btnDangNhap = new NewControl.ButtonStyleHot();
             this.txtMatKhauDangNhap = new NewControl.TextBoxPassword();
             this.txtTaiKhoanDangNhap = new NewControl.TextBoxNumChar();
-            this.btnDangNhap = new NewControl.ButtonStyleHot();
-            this.btnThoatDangNhap = new NewControl.ButtonStyleHot();
-            this.ckbGhiNhoDangNhap = new DevExpress.XtraEditors.CheckEdit();
             ((System.ComponentModel.ISupportInitialize)(this.ckbGhiNhoDangNhap.Properties)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,6 +75,42 @@
             this.lblTitleMatKhau.TabIndex = 2;
             this.lblTitleMatKhau.Text = "Mật khẩu : ";
             // 
+            // ckbGhiNhoDangNhap
+            // 
+            this.ckbGhiNhoDangNhap.Location = new System.Drawing.Point(205, 225);
+            this.ckbGhiNhoDangNhap.Name = "ckbGhiNhoDangNhap";
+            this.ckbGhiNhoDangNhap.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.ckbGhiNhoDangNhap.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.ckbGhiNhoDangNhap.Properties.Appearance.Options.UseFont = true;
+            this.ckbGhiNhoDangNhap.Properties.Appearance.Options.UseForeColor = true;
+            this.ckbGhiNhoDangNhap.Properties.Caption = "Ghi nhớ thông tin đăng nhập";
+            this.ckbGhiNhoDangNhap.Size = new System.Drawing.Size(254, 23);
+            this.ckbGhiNhoDangNhap.TabIndex = 7;
+            // 
+            // btnThoatDangNhap
+            // 
+            this.btnThoatDangNhap.BackColor = System.Drawing.Color.Azure;
+            this.btnThoatDangNhap.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnThoatDangNhap.ForeColor = System.Drawing.Color.Red;
+            this.btnThoatDangNhap.Location = new System.Drawing.Point(501, 152);
+            this.btnThoatDangNhap.Name = "btnThoatDangNhap";
+            this.btnThoatDangNhap.Size = new System.Drawing.Size(131, 31);
+            this.btnThoatDangNhap.TabIndex = 6;
+            this.btnThoatDangNhap.Text = "Thoát";
+            this.btnThoatDangNhap.UseVisualStyleBackColor = false;
+            // 
+            // btnDangNhap
+            // 
+            this.btnDangNhap.BackColor = System.Drawing.Color.Azure;
+            this.btnDangNhap.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnDangNhap.Location = new System.Drawing.Point(501, 89);
+            this.btnDangNhap.Name = "btnDangNhap";
+            this.btnDangNhap.Size = new System.Drawing.Size(131, 31);
+            this.btnDangNhap.TabIndex = 5;
+            this.btnDangNhap.Text = "Đăng Nhập";
+            this.btnDangNhap.UseVisualStyleBackColor = false;
+            this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
+            // 
             // txtMatKhauDangNhap
             // 
             this.txtMatKhauDangNhap.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
@@ -92,41 +128,6 @@
             this.txtTaiKhoanDangNhap.Name = "txtTaiKhoanDangNhap";
             this.txtTaiKhoanDangNhap.Size = new System.Drawing.Size(254, 23);
             this.txtTaiKhoanDangNhap.TabIndex = 3;
-            // 
-            // btnDangNhap
-            // 
-            this.btnDangNhap.BackColor = System.Drawing.Color.Azure;
-            this.btnDangNhap.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnDangNhap.Location = new System.Drawing.Point(501, 89);
-            this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.Size = new System.Drawing.Size(131, 31);
-            this.btnDangNhap.TabIndex = 5;
-            this.btnDangNhap.Text = "Đăng Nhập";
-            this.btnDangNhap.UseVisualStyleBackColor = false;
-            // 
-            // btnThoatDangNhap
-            // 
-            this.btnThoatDangNhap.BackColor = System.Drawing.Color.Azure;
-            this.btnThoatDangNhap.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnThoatDangNhap.ForeColor = System.Drawing.Color.Red;
-            this.btnThoatDangNhap.Location = new System.Drawing.Point(501, 152);
-            this.btnThoatDangNhap.Name = "btnThoatDangNhap";
-            this.btnThoatDangNhap.Size = new System.Drawing.Size(131, 31);
-            this.btnThoatDangNhap.TabIndex = 6;
-            this.btnThoatDangNhap.Text = "Thoát";
-            this.btnThoatDangNhap.UseVisualStyleBackColor = false;
-            // 
-            // ckbGhiNhoDangNhap
-            // 
-            this.ckbGhiNhoDangNhap.Location = new System.Drawing.Point(205, 225);
-            this.ckbGhiNhoDangNhap.Name = "ckbGhiNhoDangNhap";
-            this.ckbGhiNhoDangNhap.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.ckbGhiNhoDangNhap.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.ckbGhiNhoDangNhap.Properties.Appearance.Options.UseFont = true;
-            this.ckbGhiNhoDangNhap.Properties.Appearance.Options.UseForeColor = true;
-            this.ckbGhiNhoDangNhap.Properties.Caption = "Ghi nhớ thông tin đăng nhập";
-            this.ckbGhiNhoDangNhap.Size = new System.Drawing.Size(254, 23);
-            this.ckbGhiNhoDangNhap.TabIndex = 7;
             // 
             // frmDangNhap
             // 

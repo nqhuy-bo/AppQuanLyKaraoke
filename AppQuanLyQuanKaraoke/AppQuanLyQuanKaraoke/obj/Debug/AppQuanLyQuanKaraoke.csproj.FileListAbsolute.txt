@@ -9,3 +9,4 @@ C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraok
 C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\bin\Debug\NewControl.pdb
 C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\AppQuanLyQuanKaraoke.csprojResolveAssemblyReference.cache
 C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\AppQuanLyQuanKaraoke.exe.licenses
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\AppQuanLyQuanKaraoke.frmTrangChu.resources
