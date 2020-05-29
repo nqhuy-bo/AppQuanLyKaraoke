@@ -14,6 +14,13 @@ namespace NewControl
         {
             this.KeyPress += TextBoxNumChar_KeyPress;
             this.Leave += TextBoxNumChar_Leave;
+            this.Click += TextBoxNumChar_Click;         
+        }
+
+        private void TextBoxNumChar_Click(object sender, EventArgs e)
+        {
+            this.Clear();
+
         }
 
         void TextBoxNumChar_Leave(object sender, EventArgs e)
@@ -37,5 +44,7 @@ namespace NewControl
             
 
         }
+      
+
     }
 }
