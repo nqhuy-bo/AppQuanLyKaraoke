@@ -1,0 +1,5 @@
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\DAL_QLKaraoke\bin\Debug\DAL_QLKaraoke.dll
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\DAL_QLKaraoke\bin\Debug\DAL_QLKaraoke.pdb
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\DAL_QLKaraoke\obj\Debug\DAL_QLKaraoke.csprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\DAL_QLKaraoke\obj\Debug\DAL_QLKaraoke.dll
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\DAL_QLKaraoke\obj\Debug\DAL_QLKaraoke.pdb

@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI_QLKaraoke", "AppQuanLyQuanKaraoke\GUI_QLKaraoke.csproj", "{66EB4D44-3FAF-41C7-A21D-3ECEC18C8D7B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewControl", "NewControl\NewControl.csproj", "{AADEDB5F-1B00-40B4-B9D6-8E5F566F9B05}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUS_QLKaraoke", "BUS_QLKaraoke\BUS_QLKaraoke.csproj", "{2746979C-6DD1-4DD0-A5CE-9DAE065ED98A}"
@@ -11,16 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_QLKaraoke", "DAL_QLKara
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO_QLKaraoke", "DTO_QLKaraoke\DTO_QLKaraoke.csproj", "{662BF580-060B-4F3F-85F7-B437EC1D7FB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI_QLKaraoke", "..\..\..\Downloads\Documents\Game\AppQuanLyKaraoke-master\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\GUI_QLKaraoke.csproj", "{66EB4D44-3FAF-41C7-A21D-3ECEC18C8D7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{66EB4D44-3FAF-41C7-A21D-3ECEC18C8D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{66EB4D44-3FAF-41C7-A21D-3ECEC18C8D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{66EB4D44-3FAF-41C7-A21D-3ECEC18C8D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{66EB4D44-3FAF-41C7-A21D-3ECEC18C8D7B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AADEDB5F-1B00-40B4-B9D6-8E5F566F9B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AADEDB5F-1B00-40B4-B9D6-8E5F566F9B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AADEDB5F-1B00-40B4-B9D6-8E5F566F9B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,6 +33,10 @@ Global
 		{662BF580-060B-4F3F-85F7-B437EC1D7FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{662BF580-060B-4F3F-85F7-B437EC1D7FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{662BF580-060B-4F3F-85F7-B437EC1D7FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66EB4D44-3FAF-41C7-A21D-3ECEC18C8D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66EB4D44-3FAF-41C7-A21D-3ECEC18C8D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66EB4D44-3FAF-41C7-A21D-3ECEC18C8D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66EB4D44-3FAF-41C7-A21D-3ECEC18C8D7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
