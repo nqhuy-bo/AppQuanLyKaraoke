@@ -1,4 +1,4 @@
-﻿namespace AppQuanLyQuanKaraoke
+﻿namespace GUI_QlKaraoke
 {
     partial class frmDangNhap
     {
@@ -65,7 +65,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackgroundImage = global::AppQuanLyQuanKaraoke.Properties.Resources.rsz_padlock;
+            this.pictureBox4.BackgroundImage = global::GUI_QlKaraoke.Properties.Resources.rsz_padlock;
             this.pictureBox4.Location = new System.Drawing.Point(53, 265);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox4.Name = "pictureBox4";

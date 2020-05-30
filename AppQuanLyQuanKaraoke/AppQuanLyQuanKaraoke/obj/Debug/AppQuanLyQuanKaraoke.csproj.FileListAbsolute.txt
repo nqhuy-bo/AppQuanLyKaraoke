@@ -36,3 +36,5 @@ C:\Users\ADMIN\Pictures\hinhDoAn\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLy
 C:\Users\ADMIN\Pictures\hinhDoAn\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\AppQuanLyQuanKaraoke.exe.licenses
 C:\Users\ADMIN\Pictures\hinhDoAn\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\bin\Debug\AppQuanLyQuanKaraoke.exe.config
 C:\Users\ADMIN\Pictures\hinhDoAn\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\AppQuanLyQuanKaraoke.frmThietLapKetNoi.resources
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\bin\Debug\AppQuanLyQuanKaraoke.exe.config
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\AppQuanLyQuanKaraoke.frmThietLapKetNoi.resources

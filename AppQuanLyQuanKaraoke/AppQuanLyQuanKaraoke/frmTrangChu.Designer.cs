@@ -1,4 +1,4 @@
-﻿namespace AppQuanLyQuanKaraoke
+﻿namespace GUI_QlKaraoke
 {
     partial class frmTrangChu
     {
@@ -17,7 +17,7 @@
             {
                 components.Dispose();
             }
-            base.Dispose(disposing);
+            //base.Dispose(disposing);
         }
 
         #region Windows Form Designer generated code
@@ -51,6 +51,8 @@
             this.btnPhieuThu = new DevExpress.XtraBars.BarButtonItem();
             this.btnPhieuChi = new DevExpress.XtraBars.BarButtonItem();
             this.barEditItem1 = new DevExpress.XtraBars.BarEditItem();
+            this.btnThongTinKhachHang = new DevExpress.XtraBars.BarButtonItem();
+            this.btnDatPhongDichVu = new DevExpress.XtraBars.BarButtonItem();
             this.rbpQuanLyTaiKhoan = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -62,16 +64,14 @@
             this.rbgCaiDat = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.rbpPhieuIn = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.rpbPhieuIn = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.repositoryItemBreadCrumbEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemBreadCrumbEdit();
-            this.rbStatus = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
-            this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.btnThongTinKhachHang = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.btnDatPhongDichVu = new DevExpress.XtraBars.BarButtonItem();
+            this.repositoryItemBreadCrumbEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemBreadCrumbEdit();
+            this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
+            this.rbStatus = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.tabDanhSachNhapKho = new System.Windows.Forms.TabPage();
             this.tabChiTietPhong = new System.Windows.Forms.TabPage();
             this.tabQuanLyPhong = new System.Windows.Forms.TabPage();
@@ -127,7 +127,7 @@
             this.ribbon.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemBreadCrumbEdit1});
             this.ribbon.Size = new System.Drawing.Size(1376, 162);
-            this.ribbon.StatusBar = this.ribbonStatusBar;
+            this.ribbon.StatusBar = this.rbStatus;
             // 
             // imgHinhAnh
             // 
@@ -152,7 +152,7 @@
             // 
             this.btnDangNhap.Caption = "Đăng Nhập";
             this.btnDangNhap.Id = 2;
-            this.btnDangNhap.ImageOptions.LargeImage = global::AppQuanLyQuanKaraoke.Properties.Resources.login;
+            this.btnDangNhap.ImageOptions.LargeImage = global::GUI_QlKaraoke.Properties.Resources.login;
             this.btnDangNhap.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangNhap.ItemAppearance.Disabled.Options.UseFont = true;
             this.btnDangNhap.Name = "btnDangNhap";
@@ -197,7 +197,7 @@
             // 
             this.btnPhanQuyen.Caption = "Phân Quyền Người Dùng";
             this.btnPhanQuyen.Id = 8;
-            this.btnPhanQuyen.ImageOptions.Image = global::AppQuanLyQuanKaraoke.Properties.Resources.users3_add;
+            this.btnPhanQuyen.ImageOptions.Image = global::GUI_QlKaraoke.Properties.Resources.users3_add;
             this.btnPhanQuyen.Name = "btnPhanQuyen";
             this.btnPhanQuyen.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
@@ -206,7 +206,7 @@
             // 
             this.btnThongKe.Caption = "Thống kê";
             this.btnThongKe.Id = 9;
-            this.btnThongKe.ImageOptions.Image = global::AppQuanLyQuanKaraoke.Properties.Resources.chart2_32x32;
+            this.btnThongKe.ImageOptions.Image = global::GUI_QlKaraoke.Properties.Resources.chart2_32x32;
             this.btnThongKe.Name = "btnThongKe";
             this.btnThongKe.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
@@ -239,7 +239,7 @@
             // 
             this.btnNhapKhoNguyenLieu.Caption = "Nhập Kho Nguyên Liệu";
             this.btnNhapKhoNguyenLieu.Id = 13;
-            this.btnNhapKhoNguyenLieu.ImageOptions.Image = global::AppQuanLyQuanKaraoke.Properties.Resources.free_shipping;
+            this.btnNhapKhoNguyenLieu.ImageOptions.Image = global::GUI_QlKaraoke.Properties.Resources.free_shipping;
             this.btnNhapKhoNguyenLieu.Name = "btnNhapKhoNguyenLieu";
             this.btnNhapKhoNguyenLieu.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
@@ -248,7 +248,7 @@
             // 
             this.btnLoaiPhongDonGia.Caption = "Loại Phòng/Đơn Giá";
             this.btnLoaiPhongDonGia.Id = 14;
-            this.btnLoaiPhongDonGia.ImageOptions.Image = global::AppQuanLyQuanKaraoke.Properties.Resources.price;
+            this.btnLoaiPhongDonGia.ImageOptions.Image = global::GUI_QlKaraoke.Properties.Resources.price;
             this.btnLoaiPhongDonGia.Name = "btnLoaiPhongDonGia";
             this.btnLoaiPhongDonGia.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
@@ -266,7 +266,7 @@
             // 
             this.btnKhuyenMai.Caption = "Khuyến Mãi";
             this.btnKhuyenMai.Id = 16;
-            this.btnKhuyenMai.ImageOptions.Image = global::AppQuanLyQuanKaraoke.Properties.Resources.loudspeaker;
+            this.btnKhuyenMai.ImageOptions.Image = global::GUI_QlKaraoke.Properties.Resources.loudspeaker;
             this.btnKhuyenMai.ImageOptions.ImageIndex = 8;
             this.btnKhuyenMai.Name = "btnKhuyenMai";
             this.btnKhuyenMai.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
@@ -276,7 +276,7 @@
             // 
             this.btnPhieuThu.Caption = "Phiếu Thu";
             this.btnPhieuThu.Id = 17;
-            this.btnPhieuThu.ImageOptions.Image = global::AppQuanLyQuanKaraoke.Properties.Resources.Edit_32x32;
+            this.btnPhieuThu.ImageOptions.Image = global::GUI_QlKaraoke.Properties.Resources.Edit_32x32;
             this.btnPhieuThu.Name = "btnPhieuThu";
             this.btnPhieuThu.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
@@ -285,7 +285,7 @@
             // 
             this.btnPhieuChi.Caption = "Phiếu Chi";
             this.btnPhieuChi.Id = 18;
-            this.btnPhieuChi.ImageOptions.Image = global::AppQuanLyQuanKaraoke.Properties.Resources.Edit_32x32;
+            this.btnPhieuChi.ImageOptions.Image = global::GUI_QlKaraoke.Properties.Resources.Edit_32x32;
             this.btnPhieuChi.Name = "btnPhieuChi";
             this.btnPhieuChi.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
@@ -295,6 +295,24 @@
             this.barEditItem1.Edit = null;
             this.barEditItem1.Id = 2;
             this.barEditItem1.Name = "barEditItem1";
+            // 
+            // btnThongTinKhachHang
+            // 
+            this.btnThongTinKhachHang.Caption = "Thông tin khách hàng";
+            this.btnThongTinKhachHang.Id = 3;
+            this.btnThongTinKhachHang.ImageOptions.Image = global::GUI_QlKaraoke.Properties.Resources.UserGroup_32x32;
+            this.btnThongTinKhachHang.Name = "btnThongTinKhachHang";
+            this.btnThongTinKhachHang.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
+            | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
+            // 
+            // btnDatPhongDichVu
+            // 
+            this.btnDatPhongDichVu.Caption = "Đặt phòng dịch vụ";
+            this.btnDatPhongDichVu.Id = 4;
+            this.btnDatPhongDichVu.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDatPhongDichVu.ImageOptions.Image")));
+            this.btnDatPhongDichVu.Name = "btnDatPhongDichVu";
+            this.btnDatPhongDichVu.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
+            | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
             // 
             // rbpQuanLyTaiKhoan
             // 
@@ -329,7 +347,7 @@
             this.rbpQuanLyKarooke.Appearance.Options.UseFont = true;
             this.rbpQuanLyKarooke.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.rbgQuanLyKaraoke});
-            this.rbpQuanLyKarooke.Image = global::AppQuanLyQuanKaraoke.Properties.Resources.project_32x321;
+            this.rbpQuanLyKarooke.Image = global::GUI_QlKaraoke.Properties.Resources.project_32x321;
             this.rbpQuanLyKarooke.Name = "rbpQuanLyKarooke";
             this.rbpQuanLyKarooke.Text = "Quản Lý Karaoke";
             // 
@@ -346,7 +364,7 @@
             this.rbpQuanLyHangDichVu.Appearance.Options.UseFont = true;
             this.rbpQuanLyHangDichVu.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.rpgQuanLyDichVu});
-            this.rbpQuanLyHangDichVu.Image = global::AppQuanLyQuanKaraoke.Properties.Resources.boorder_32x32;
+            this.rbpQuanLyHangDichVu.Image = global::GUI_QlKaraoke.Properties.Resources.boorder_32x32;
             this.rbpQuanLyHangDichVu.Name = "rbpQuanLyHangDichVu";
             this.rbpQuanLyHangDichVu.Text = "Quản Lý Hàng Dịch Vụ";
             // 
@@ -395,33 +413,6 @@
             this.rpbPhieuIn.Name = "rpbPhieuIn";
             this.rpbPhieuIn.Text = "Phiếu In";
             // 
-            // repositoryItemBreadCrumbEdit1
-            // 
-            this.repositoryItemBreadCrumbEdit1.AutoHeight = false;
-            this.repositoryItemBreadCrumbEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.repositoryItemBreadCrumbEdit1.Name = "repositoryItemBreadCrumbEdit1";
-            // 
-            // rbStatus
-            // 
-            this.rbStatus.Location = new System.Drawing.Point(1, 383);
-            this.rbStatus.Name = "rbStatus";
-            this.rbStatus.Ribbon = this.ribbon;
-            this.rbStatus.Size = new System.Drawing.Size(1448, 27);
-            // 
-            // ribbonStatusBar
-            // 
-            this.ribbonStatusBar.ItemLinks.Add(this.barEditItem1);
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 756);
-            this.ribbonStatusBar.Margin = new System.Windows.Forms.Padding(7, 5, 7, 5);
-            this.ribbonStatusBar.Name = "ribbonStatusBar";
-            this.ribbonStatusBar.Ribbon = this.ribbon;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(1376, 31);
-            // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            // 
             // ribbonPage1
             // 
             this.ribbonPage1.Appearance.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
@@ -440,15 +431,6 @@
             this.ribbonPageGroup2.Name = "ribbonPageGroup2";
             this.ribbonPageGroup2.Text = "ribbonPageGroup2";
             // 
-            // btnThongTinKhachHang
-            // 
-            this.btnThongTinKhachHang.Caption = "Thông tin khách hàng";
-            this.btnThongTinKhachHang.Id = 3;
-            this.btnThongTinKhachHang.ImageOptions.Image = global::AppQuanLyQuanKaraoke.Properties.Resources.UserGroup_32x32;
-            this.btnThongTinKhachHang.Name = "btnThongTinKhachHang";
-            this.btnThongTinKhachHang.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
-            | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
-            // 
             // ribbonPageGroup3
             // 
             this.ribbonPageGroup3.ItemLinks.Add(this.btnDatPhongDichVu);
@@ -460,21 +442,39 @@
             this.ribbonPageGroup4.Name = "ribbonPageGroup4";
             this.ribbonPageGroup4.Text = "ribbonPageGroup4";
             // 
-            // btnDatPhongDichVu
+            // repositoryItemBreadCrumbEdit1
             // 
-            this.btnDatPhongDichVu.Caption = "Đặt phòng dịch vụ";
-            this.btnDatPhongDichVu.Id = 4;
-            this.btnDatPhongDichVu.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.Image")));
-            this.btnDatPhongDichVu.Name = "btnDatPhongDichVu";
-            this.btnDatPhongDichVu.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
-            | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
+            this.repositoryItemBreadCrumbEdit1.AutoHeight = false;
+            this.repositoryItemBreadCrumbEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.repositoryItemBreadCrumbEdit1.Name = "repositoryItemBreadCrumbEdit1";
+            // 
+            // ribbonStatusBar
+            // 
+            this.ribbonStatusBar.ItemLinks.Add(this.barEditItem1);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 756);
+            this.ribbonStatusBar.Margin = new System.Windows.Forms.Padding(7, 5, 7, 5);
+            this.ribbonStatusBar.Name = "ribbonStatusBar";
+            this.ribbonStatusBar.Ribbon = this.ribbon;
+            this.ribbonStatusBar.Size = new System.Drawing.Size(1376, 31);
+            // 
+            // rbStatus
+            // 
+            this.rbStatus.Location = new System.Drawing.Point(1, 383);
+            this.rbStatus.Name = "rbStatus";
+            this.rbStatus.Ribbon = this.ribbon;
+            this.rbStatus.Size = new System.Drawing.Size(1448, 27);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // tabDanhSachNhapKho
             // 
             this.tabDanhSachNhapKho.Location = new System.Drawing.Point(4, 28);
             this.tabDanhSachNhapKho.Name = "tabDanhSachNhapKho";
             this.tabDanhSachNhapKho.Padding = new System.Windows.Forms.Padding(3);
-            this.tabDanhSachNhapKho.Size = new System.Drawing.Size(1368, 573);
+            this.tabDanhSachNhapKho.Size = new System.Drawing.Size(998, 438);
             this.tabDanhSachNhapKho.TabIndex = 6;
             this.tabDanhSachNhapKho.Text = "Danh Sách Nhập Kho";
             this.tabDanhSachNhapKho.UseVisualStyleBackColor = true;
@@ -484,7 +484,7 @@
             this.tabChiTietPhong.Location = new System.Drawing.Point(4, 28);
             this.tabChiTietPhong.Name = "tabChiTietPhong";
             this.tabChiTietPhong.Padding = new System.Windows.Forms.Padding(3);
-            this.tabChiTietPhong.Size = new System.Drawing.Size(1368, 573);
+            this.tabChiTietPhong.Size = new System.Drawing.Size(998, 438);
             this.tabChiTietPhong.TabIndex = 5;
             this.tabChiTietPhong.Text = "Chi Tiết Phòng";
             this.tabChiTietPhong.UseVisualStyleBackColor = true;
@@ -494,7 +494,7 @@
             this.tabQuanLyPhong.Location = new System.Drawing.Point(4, 28);
             this.tabQuanLyPhong.Name = "tabQuanLyPhong";
             this.tabQuanLyPhong.Padding = new System.Windows.Forms.Padding(3);
-            this.tabQuanLyPhong.Size = new System.Drawing.Size(1368, 573);
+            this.tabQuanLyPhong.Size = new System.Drawing.Size(998, 438);
             this.tabQuanLyPhong.TabIndex = 4;
             this.tabQuanLyPhong.Text = "Quản Lý Phòng";
             this.tabQuanLyPhong.UseVisualStyleBackColor = true;
@@ -504,7 +504,7 @@
             this.tabDanhSachBill.Location = new System.Drawing.Point(4, 28);
             this.tabDanhSachBill.Name = "tabDanhSachBill";
             this.tabDanhSachBill.Padding = new System.Windows.Forms.Padding(3);
-            this.tabDanhSachBill.Size = new System.Drawing.Size(1368, 573);
+            this.tabDanhSachBill.Size = new System.Drawing.Size(998, 438);
             this.tabDanhSachBill.TabIndex = 3;
             this.tabDanhSachBill.Text = "Danh Sách Bill";
             this.tabDanhSachBill.UseVisualStyleBackColor = true;
@@ -514,7 +514,7 @@
             this.tabThuChi.Location = new System.Drawing.Point(4, 28);
             this.tabThuChi.Name = "tabThuChi";
             this.tabThuChi.Padding = new System.Windows.Forms.Padding(3);
-            this.tabThuChi.Size = new System.Drawing.Size(1368, 573);
+            this.tabThuChi.Size = new System.Drawing.Size(998, 438);
             this.tabThuChi.TabIndex = 2;
             this.tabThuChi.Text = "Thu Chi";
             this.tabThuChi.UseVisualStyleBackColor = true;
@@ -524,7 +524,7 @@
             this.tabSPDichVu.Location = new System.Drawing.Point(4, 28);
             this.tabSPDichVu.Name = "tabSPDichVu";
             this.tabSPDichVu.Padding = new System.Windows.Forms.Padding(3);
-            this.tabSPDichVu.Size = new System.Drawing.Size(1368, 573);
+            this.tabSPDichVu.Size = new System.Drawing.Size(998, 438);
             this.tabSPDichVu.TabIndex = 1;
             this.tabSPDichVu.Text = "Sản Phẩm Dịch Vụ";
             this.tabSPDichVu.UseVisualStyleBackColor = true;
@@ -535,16 +535,13 @@
             this.tabKhoNguyenLieu.Margin = new System.Windows.Forms.Padding(3, 3, 6, 3);
             this.tabKhoNguyenLieu.Name = "tabKhoNguyenLieu";
             this.tabKhoNguyenLieu.Padding = new System.Windows.Forms.Padding(3, 3, 6, 3);
-            this.tabKhoNguyenLieu.Size = new System.Drawing.Size(1368, 573);
+            this.tabKhoNguyenLieu.Size = new System.Drawing.Size(1368, 562);
             this.tabKhoNguyenLieu.TabIndex = 0;
             this.tabKhoNguyenLieu.Text = "Kho Nguyên Liệu";
             this.tabKhoNguyenLieu.UseVisualStyleBackColor = true;
             // 
             // tabControlTacVu
             // 
-            this.tabControlTacVu.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControlTacVu.Controls.Add(this.tabKhoNguyenLieu);
             this.tabControlTacVu.Controls.Add(this.tabSPDichVu);
             this.tabControlTacVu.Controls.Add(this.tabThuChi);
@@ -552,12 +549,13 @@
             this.tabControlTacVu.Controls.Add(this.tabQuanLyPhong);
             this.tabControlTacVu.Controls.Add(this.tabChiTietPhong);
             this.tabControlTacVu.Controls.Add(this.tabDanhSachNhapKho);
+            this.tabControlTacVu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControlTacVu.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.tabControlTacVu.Location = new System.Drawing.Point(0, 170);
+            this.tabControlTacVu.Location = new System.Drawing.Point(0, 162);
             this.tabControlTacVu.Name = "tabControlTacVu";
             this.tabControlTacVu.Padding = new System.Drawing.Point(26, 3);
             this.tabControlTacVu.SelectedIndex = 0;
-            this.tabControlTacVu.Size = new System.Drawing.Size(1376, 605);
+            this.tabControlTacVu.Size = new System.Drawing.Size(1376, 594);
             this.tabControlTacVu.TabIndex = 5;
             // 
             // frmTrangChu
@@ -575,7 +573,6 @@
             this.Ribbon = this.ribbon;
             this.StatusBar = this.ribbonStatusBar;
             this.Text = "Quản Lý Quán Karoke";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmTrangChu_FormClosing);
             this.Load += new System.EventHandler(this.frmTrangChu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).EndInit();

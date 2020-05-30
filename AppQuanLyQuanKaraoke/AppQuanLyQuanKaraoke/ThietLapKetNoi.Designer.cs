@@ -1,4 +1,4 @@
-﻿namespace AppQuanLyQuanKaraoke
+﻿namespace GUI_QlKaraoke
 {
     partial class frmThietLapKetNoi
     {
@@ -45,7 +45,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::AppQuanLyQuanKaraoke.Properties.Resources.karaoke;
+            this.pictureBox1.Image = global::GUI_QlKaraoke.Properties.Resources.karaoke;
             this.pictureBox1.Location = new System.Drawing.Point(300, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(112, 73);

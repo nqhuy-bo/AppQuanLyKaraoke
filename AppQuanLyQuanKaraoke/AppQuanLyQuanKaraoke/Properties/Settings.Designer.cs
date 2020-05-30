@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AppQuanLyQuanKaraoke.Properties {
+namespace GUI_QlKaraoke.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -23,16 +23,13 @@ namespace AppQuanLyQuanKaraoke.Properties {
             }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-319D2UA;Initial Catalog=QL_KARAOKE;User ID=sa;Password=sa2012" +
             "")]
         public string connect_karaoke {
             get {
                 return ((string)(this["connect_karaoke"]));
-            }
-            set {
-                this["connect_karaoke"] = value;
             }
         }
     }

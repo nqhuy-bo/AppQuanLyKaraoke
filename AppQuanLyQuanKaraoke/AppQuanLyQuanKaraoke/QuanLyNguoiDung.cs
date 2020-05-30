@@ -7,13 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AppQuanLyQuanKaraoke
+namespace GUI_QLKaraoke
 {
     class QuanLyNguoiDung
     {
         public int CheckConfig()
         {
-            if (Properties.Settings.Default.connect_karaoke == String.Empty)
+            if (GUI_QlKaraoke.Properties.Settings.Default.connect_karaoke == String.Empty)
             {
                 return 0;//chuỗi cấu hình không tồn tại
             }
@@ -77,9 +77,9 @@ namespace AppQuanLyQuanKaraoke
 
         public void SaveConfig(string pServer, string pUser, string pPass, string pDBname)
         {
-            AppQuanLyQuanKaraoke.Properties.Settings.Default.connect_karaoke = "Data Source=" + pServer +
+            GUI_QlKaraoke.Properties.Settings.Default.connect_karaoke = "Data Source=" + pServer +
             ";Initial Catalog=" + pDBname + ";User ID=" + pUser + ";pwd = " + pPass + "";
-            AppQuanLyQuanKaraoke.Properties.Settings.Default.Save();
+            GUI_QlKaraoke.Properties.Settings.Default.Save();
         }
     }
 }

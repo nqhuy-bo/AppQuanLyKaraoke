@@ -1,0 +1,13 @@
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\GUI_QLKaraoke.csprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\DAL_QLKaraore.frmDangNhap.resources
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\DAL_QLKaraore.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\DAL_QLKaraore.frmTrangChu.resources
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\DAL_QLKaraore.frmThietLapKetNoi.resources
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\GUI_QLKaraoke.csproj.GenerateResource.Cache
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\AppQuanLyQuanKaraoke.exe.licenses
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\AppQuanLyQuanKaraoke.exe
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\AppQuanLyQuanKaraoke.pdb
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\GUI_QlKaraoke.frmDangNhap.resources
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\GUI_QlKaraoke.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\GUI_QlKaraoke.frmTrangChu.resources
+C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\AppQuanLyQuanKaraoke\obj\Debug\GUI_QLKaraoke.frmThietLapKetNoi.resources

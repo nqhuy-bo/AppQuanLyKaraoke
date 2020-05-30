@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraBars;
 using DevExpress.XtraEditors;
-using AppQuanLyQuanKaraoke;
+using GUI_QlKaraoke;
 using System.Drawing;
 
-namespace AppQuanLyQuanKaraoke
+namespace GUI_QlKaraoke
 {
     public partial class frmTrangChu : DevExpress.XtraBars.Ribbon.RibbonForm
     {

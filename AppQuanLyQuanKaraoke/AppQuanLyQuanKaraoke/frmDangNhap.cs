@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
-namespace AppQuanLyQuanKaraoke
+namespace GUI_QlKaraoke
 {
     public partial class frmDangNhap : Form
     {

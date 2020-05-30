@@ -7,7 +7,7 @@ using DevExpress.Skins;
 using DevExpress.LookAndFeel;
 
 
-namespace AppQuanLyQuanKaraoke
+namespace GUI_QlKaraoke
 {
     static class Program
     {
@@ -24,7 +24,7 @@ namespace AppQuanLyQuanKaraoke
             SkinManager.EnableFormSkins();
             UserLookAndFeel.Default.SetSkinStyle("DevExpress Style");
 
-            Application.Run(new frmThietLapKetNoi());
+            Application.Run(new frmTrangChu());
             //Application.Run(new frmDangNhap());
         }
     }
