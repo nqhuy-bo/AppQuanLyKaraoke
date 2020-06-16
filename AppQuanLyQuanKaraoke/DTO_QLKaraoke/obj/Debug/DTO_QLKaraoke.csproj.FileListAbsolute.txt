@@ -1,4 +1,0 @@
-C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\DTO_QLKaraoke\bin\Debug\DTO_QLKaraoke.dll
-C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\DTO_QLKaraoke\bin\Debug\DTO_QLKaraoke.pdb
-C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\DTO_QLKaraoke\obj\Debug\DTO_QLKaraoke.dll
-C:\Users\ADMIN\Desktop\AppQuanLyKaraoke\AppQuanLyQuanKaraoke\DTO_QLKaraoke\obj\Debug\DTO_QLKaraoke.pdb
