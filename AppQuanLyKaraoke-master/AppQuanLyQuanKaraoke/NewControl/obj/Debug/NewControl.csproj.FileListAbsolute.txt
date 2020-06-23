@@ -16,3 +16,8 @@ C:\Users\LAPTOP-MSI\Downloads\AppQuanLyKaraoke-master\AppQuanLyQuanKaraoke\NewCo
 C:\Users\LAPTOP-MSI\Downloads\AppQuanLyKaraoke-master\AppQuanLyQuanKaraoke\NewControl\obj\Debug\NewControl.csprojResolveAssemblyReference.cache
 C:\Users\LAPTOP-MSI\Downloads\AppQuanLyKaraoke-master\AppQuanLyQuanKaraoke\NewControl\obj\Debug\NewControl.dll
 C:\Users\LAPTOP-MSI\Downloads\AppQuanLyKaraoke-master\AppQuanLyQuanKaraoke\NewControl\obj\Debug\NewControl.pdb
+C:\Users\LAPTOP-MSI\Desktop\AppQuanLyKaraoke\AppQuanLyKaraoke-master\AppQuanLyQuanKaraoke\NewControl\bin\Debug\NewControl.dll
+C:\Users\LAPTOP-MSI\Desktop\AppQuanLyKaraoke\AppQuanLyKaraoke-master\AppQuanLyQuanKaraoke\NewControl\bin\Debug\NewControl.pdb
+C:\Users\LAPTOP-MSI\Desktop\AppQuanLyKaraoke\AppQuanLyKaraoke-master\AppQuanLyQuanKaraoke\NewControl\obj\Debug\NewControl.csprojResolveAssemblyReference.cache
+C:\Users\LAPTOP-MSI\Desktop\AppQuanLyKaraoke\AppQuanLyKaraoke-master\AppQuanLyQuanKaraoke\NewControl\obj\Debug\NewControl.dll
+C:\Users\LAPTOP-MSI\Desktop\AppQuanLyKaraoke\AppQuanLyKaraoke-master\AppQuanLyQuanKaraoke\NewControl\obj\Debug\NewControl.pdb
